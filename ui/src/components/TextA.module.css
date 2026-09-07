@@ -1,0 +1,29 @@
+.textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  border-color: rgb(188, 188, 188);
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.textarea:focus {
+  border: 2px solid green !important;
+}
+
+.textarea:hover {
+  border-color: black;
+}
+
+.textareaError, .textareaError:hover {
+  border-color: red;
+}
+
+.label {
+  color: rgb(82, 82, 82);
+  margin-bottom: 5px;
+}
+
+.label.error {
+  color: red;
+}
