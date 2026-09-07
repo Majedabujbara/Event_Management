@@ -1,0 +1,204 @@
+[33mcommit d0c03e0d527cccb39e45bdb36d4bd95211f02501[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 88eecfb 6e9a23d
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Sun Apr 6 22:57:28 2025 +0300
+
+    merge branch 'BrancedTesting'
+
+[33mcommit 6e9a23dbf33c7b754f8e2e2c13df3e9131728704[m[33m ([m[1;31morigin/BrancedTesting[m[33m, [m[1;32mBrancedTesting[m[33m)[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Sun Apr 6 22:47:41 2025 +0300
+
+    Added messaging ability
+
+[33mcommit 88eecfbf02bf7271326b83de8b31e1fcb2cff078[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Sun Apr 6 21:36:41 2025 +0300
+
+    Revert "Allow anonymous"
+    
+    This reverts commit c1e6a22593cccb884d04ee5ba0027fd31904304c.
+
+[33mcommit c1e6a22593cccb884d04ee5ba0027fd31904304c[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Sun Apr 6 14:46:08 2025 +0300
+
+    Allow anonymous
+
+[33mcommit 5a8a691908a662a1a75df766e70be4a958183ecc[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Wed Apr 2 20:16:05 2025 +0300
+
+    fixed remove an attendee endpoint
+
+[33mcommit b61eaaa0750f4ef179c523f25c297ddc76066ba2[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Sat Mar 29 01:23:35 2025 +0300
+
+    Added Request DTOs and fixed an error in events when adding (? i forgot)
+
+[33mcommit 4518e3cb2cbd44d5d8ed613cd7514efc5fdf026e[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Fri Mar 28 23:15:27 2025 +0300
+
+    Created a news entity with its CRUDs controller , services , repoisitories
+
+[33mcommit 35b5b6069c248ceda729f9936dc61386ba7092a3[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Fri Mar 28 01:16:58 2025 +0300
+
+    Authentication Response can return GUID
+
+[33mcommit a49bfdd11dac3182775a41c8ce048db71fcd2b9e[m
+Merge: 3a283ff 1dd1f57
+Author: jwiehan2003 <114860196+jwiehan2003@users.noreply.github.com>
+Date:   Thu Mar 27 17:37:35 2025 +0300
+
+    Merge pull request #3 from ibrahim3201/master
+    
+    test
+
+[33mcommit 1dd1f5712dcbd5684d647d9f9971a9c57bf87694[m
+Author: ibrahim <ibrahim.s.2290@gmail.com>
+Date:   Thu Mar 27 16:52:30 2025 +0300
+
+    feat: Add Organization entity and update migrations
+    
+    - Added Organization entity to the domain layer
+    - Updated ApplicationDbContext to include DbSet for Organizations
+    - Created a new migration 'AddOrganizationEntity' to add the Organization table
+    - Updated ApplicationDbContextModelSnapshot to include the Organization entity
+    - Seeded initial data for the Organization table
+    
+    This commit introduces the Organization entity and ensures it is properly integrated into the database schema with initial seed data.
+
+[33mcommit 4d9d6cc0a070ee6bbda12555e32051c4bca43353[m
+Author: ibrahim <ibrahim.s.2290@gmail.com>
+Date:   Thu Mar 27 02:08:17 2025 +0300
+
+    feat: Add Organization entity and update migrations
+    
+    - Added Organization entity to the domain layer
+    - Updated ApplicationDbContext to include DbSet for Organizations
+    - Created a new migration 'AddOrganizationEntity' to add the Organization table
+    - Updated ApplicationDbContextModelSnapshot to include the Organization entity
+    - Seeded initial data for the Organization table
+    
+    This commit introduces the Organization entity and ensures it is properly integrated into the database schema with initial seed data.
+
+[33mcommit 3a283ffc43c95a5c9ece01f4d2a079c3c9f5434e[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Fri Mar 21 14:14:58 2025 +0300
+
+    Fixed Token Generation (Parsing Issue with the newer dependency)
+    Added Default Authorization Using JWT Bearer
+
+[33mcommit 278c42aa7a5f996f980a526cb88e19b55cc95d7f[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Mon Mar 17 21:03:35 2025 +0300
+
+    Commenting out the IsEmailAlreadyRegistered in the AccountsController
+
+[33mcommit ec1269b9e1f8447e6135007ebae53f0e151b13ce[m
+Merge: d56836f ae07bf0
+Author: jwiehan2003 <114860196+jwiehan2003@users.noreply.github.com>
+Date:   Mon Mar 17 20:36:14 2025 +0300
+
+    Merge pull request #2 from ibrahim3201/master
+    
+    Make some changes on the Controllers
+
+[33mcommit ae07bf0afce9b54a532a4043c1af823186168cb6[m
+Author: ibrahim <ibrahim.s.2290@gmail.com>
+Date:   Mon Mar 17 15:59:22 2025 +0300
+
+    Make some changes on the Controllers
+
+[33mcommit d56836fd42859e029746235c815be2ad3314b48f[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Sun Mar 16 21:54:25 2025 +0300
+
+    testing juwaihan
+
+[33mcommit a6a97aa12273d84cfb8c2cf15b6fc6d603b4fb9b[m
+Merge: 87cf459 30f3c69
+Author: jwiehan2003 <114860196+jwiehan2003@users.noreply.github.com>
+Date:   Sun Mar 16 21:31:40 2025 +0300
+
+    Merge pull request #1 from ibrahim3201/master
+    
+    test
+
+[33mcommit 30f3c698babee6202c0ebee57cb5017964b8e35c[m
+Author: ibrahim <ibrahim.s.2290@gmail.com>
+Date:   Sun Mar 16 21:25:58 2025 +0300
+
+    CORS React
+
+[33mcommit 80953bc804294fec771c8e01903469ebe4b3b764[m
+Merge: baa6973 87cf459
+Author: Ibrahim Sobhi <150435511+ibrahim3201@users.noreply.github.com>
+Date:   Sun Mar 16 20:26:21 2025 +0300
+
+    Merge branch 'jwiehan2003:master' into master
+
+[33mcommit 87cf459abfc3f555e8c04ee3a43f350956913b83[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Sat Mar 15 01:38:58 2025 +0300
+
+    Added Event Attendees controller and debuged some issues
+    Some issuse may have been left unfixed (proxies)
+
+[33mcommit baa697395d4c5e7aff3b2b48a37382c6699e26f0[m
+Author: Ibrahim Sobhi <150435511+ibrahim3201@users.noreply.github.com>
+Date:   Wed Mar 5 03:04:37 2025 +0300
+
+    Create README.md
+
+[33mcommit 96fd50c3c183e86e2e531907907d8d4d312d9a56[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Sun Mar 2 21:46:28 2025 +0300
+
+    To Be Used v1
+
+[33mcommit 734e515b927e9fc047fb4d5cddcf7aba64298376[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Sat Mar 1 12:11:42 2025 +0300
+
+    Fixed Account Controller now can login logout and register (stil lthe "Is Email Registered" not checked)
+
+[33mcommit 7ee12245e587eca40947c13bff63780fb5c14ca3[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Fri Feb 28 21:54:47 2025 +0300
+
+    Fixed some stuff for the migration and update database
+
+[33mcommit 2dbd8055e4ad62d064f7b3b502327e0798e147ec[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Fri Feb 28 17:50:16 2025 +0300
+
+    Added bunch of stuff
+
+[33mcommit 4afb0b3f1bf8bc32e7bc67a35de66c0cfd0227b7[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Fri Jan 31 01:23:32 2025 +0300
+
+    Gonna commit and then maybe delete the person Entity
+
+[33mcommit a55f792904ffcc48185f1f0f7216629a9a9d86dd[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Thu Jan 30 19:37:17 2025 +0300
+
+    Done the services and the room Repository
+
+[33mcommit 2dba0490ac275c970ea703ff298dca4e78887f34[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Wed Jan 29 19:09:22 2025 +0300
+
+    Add project files.
+
+[33mcommit bb4142d124218819c61d1db50f486eeb5b641378[m
+Author: jwiehan2003 <mohammadjw555@gmail.com>
+Date:   Wed Jan 29 19:09:20 2025 +0300
+
+    Add .gitattributes and .gitignore.
