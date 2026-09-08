@@ -1,4 +1,8 @@
 # Event Management System
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![.NET](https://img.shields.io/badge/.NET-6.0-purple.svg)
+![GitHub stars](https://img.shields.io/github/stars/Majedabujbara/Event_Management.svg)
+![GitHub forks](https://img.shields.io/github/forks/Majedabujbara/Event_Management.svg)
 
 This project provides a complete setup for managing events using ASP.NET Core MVC with SQL Server integration. It demonstrates modular architecture, role-based access, and a responsive user interface.
 
